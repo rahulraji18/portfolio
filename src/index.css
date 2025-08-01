@@ -1,0 +1,32 @@
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    margin: 0;
+    background: #f9f9f9;
+    color: #222;
+  }
+  a { color: #0a66c2; text-decoration: none; }
+  a:hover { text-decoration: underline; }
+  .navbar {
+    background: #fff;
+    border-bottom: 1px solid #eaeaea;
+    padding: 10px 0;
+  }
+  .navbar .container { display: flex; align-items: center; justify-content: space-between; }
+  .navbar ul { list-style: none; display: flex; gap: 18px; margin: 0; padding: 0; }
+  .logo { font-weight: 700; letter-spacing:2px;}
+  .hero { background: #0a66c2; color: #fff; padding: 48px 0; text-align: center;}
+  .section { padding: 48px 0;}
+  .container { max-width: 860px; margin: 0 auto; padding: 0 24px;}
+  .skills-list {display: flex; flex-wrap: wrap; gap:12px;margin-top:20px;}
+  .skills-list span { background: #0a66c2; color:#fff; border-radius: 4px; padding: 6px 14px;font-size:15px;}
+  .project { margin-bottom: 26px;}
+  .contact-form { display: flex; flex-direction: column; gap: 12px; max-width: 340px;}
+  input, textarea { padding:10px; border-radius: 4px; border:1px solid #ddd;}
+  button { background: #0a66c2; color: #fff; border: none; border-radius: 4px; padding: 12px 0;cursor: pointer;}
+  .footer { background: #f1f1f1; text-align: center; padding: 20px 0; margin-top:40px;}
+  @media (max-width:600px){
+    .container {padding: 0 8px;}
+    .navbar ul{gap:9px;}
+    .section{padding:28px 0;}
+  }
+  
