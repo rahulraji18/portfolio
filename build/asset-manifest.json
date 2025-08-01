@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/rahulr-portfolio/static/css/main.025a6ed2.css",
+    "main.js": "/rahulr-portfolio/static/js/main.7ec8b9a0.js",
+    "index.html": "/rahulr-portfolio/index.html",
+    "main.025a6ed2.css.map": "/rahulr-portfolio/static/css/main.025a6ed2.css.map",
+    "main.7ec8b9a0.js.map": "/rahulr-portfolio/static/js/main.7ec8b9a0.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.025a6ed2.css",
+    "static/js/main.7ec8b9a0.js"
+  ]
+}
